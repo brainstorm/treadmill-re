@@ -14,7 +14,7 @@ Dumping firmware is (luckily) very straightforward because there's no ROP (Read 
 openocd -f interface/stlink-dap.cfg -f target/stm8s105.cfg -c "init" -c "reset halt"
 ```
 
-Fortunately, [stm8flash][stm8flash] does the job just fine out of the box:
+Fortunately, [stm8flash][stm8flash] does the job just fine out of the box.
 
 ### Display board
 

@@ -77,3 +77,6 @@ Bytes received: 1024
 [openocd_fail]: https://github.com/hbendalibraham/stm8_started/issues/1#issuecomment-758252539
 [stm8s003f3p6]: https://www.st.com/en/microcontrollers-microprocessors/stm8s003f3.html
 [stm8s005k6t6c]: https://www.st.com/en/microcontrollers-microprocessors/stm8s005k6.html
+[stm8i2c_cool_writeup]: https://gist.github.com/TG9541/5c3405320794d91ef8129734a4bfc880
+[stm8_glitch_555]: https://hackaday.io/project/183537-dumping-firmware-with-a-555
+[stm8_getting_started]: https://github.com/hbendalibraham/stm8_started

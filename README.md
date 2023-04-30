@@ -1,6 +1,8 @@
 # Threadmill RE
 
-This threadmill I found on the trash has two boards, let's call them: display and control. Both have STM8S ICs performing different functions. The display board, other than displaying numbers on the display (via discrete SMD LEDs), has a [proprietary 2.4GHz radio module][pmicro_web] which supposedly communicated with a remote control that was not present at the dumping site (street) :/
+This threadmill I found on the trash has two boards, let's call them: display and control. Both have STM8S ICs performing different functions. 
+
+The display board, other than displaying numbers on the display (via discrete SMD LEDs), has a [proprietary 2.4GHz radio module][pmicro_web] which supposedly communicated with **a remote control that was not present at the dumping site (street) :/** ... thus, we have a reason to reverse, fix and having this working again for desk workouts :)
 
 ![threadmill](./img/threadmill.jpeg)
 

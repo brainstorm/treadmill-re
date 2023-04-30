@@ -80,3 +80,5 @@ Bytes received: 1024
 [stm8i2c_cool_writeup]: https://gist.github.com/TG9541/5c3405320794d91ef8129734a4bfc880
 [stm8_glitch_555]: https://hackaday.io/project/183537-dumping-firmware-with-a-555
 [stm8_getting_started]: https://github.com/hbendalibraham/stm8_started
+[stm8_svd]: https://github.com/gicking/STM8_headers/blob/master/SVD/STM8S003F3.svd
+[stm8_emulator]: https://github.com/mikechambers84/STM8-Emulator

@@ -1,6 +1,0 @@
-IADD:00000000:/flash.bin
-IDSET:/flash.bin:7f001eca6232712032547250
-IADD:00000001:/flash_control.bin
-IDSET:/flash_control.bin:c0a816decad232865025922291
-IADD:00000002:/flash_display_24bit.bin
-IDSET:/flash_display_24bit.bin:c0a816decb1232927005688708

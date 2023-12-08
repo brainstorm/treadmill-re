@@ -70,6 +70,12 @@ Reading 1024 bytes at 0x0... OK
 Bytes received: 1024
 ```
 
+## Analyse with radare2
+
+```sh
+./r2/anal.sh
+```
+
 [boot_attacks]: https://github.com/janvdherrewegen/bootl-attacks
 [pmicro_web]: https://pmicro.com.cn/en/mcurf_/21.html
 [stm8_glitch]: https://hackaday.com/2020/07/04/the-cheap-way-to-glitch-an-stm8-microcontroller/

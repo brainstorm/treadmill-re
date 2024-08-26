@@ -13,4 +13,6 @@ omni 1 flash
 omni 2 peripherals
 omni 3 eeprom
 omni 4 ram
+aaaa
+decai -e api=claude
 #af;pdg

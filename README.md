@@ -72,6 +72,8 @@ Bytes received: 1024
 
 ## Analyse with radare2
 
+From the top level directory:
+
 ```sh
 ./r2/anal.sh
 ```

@@ -1,120 +1,120 @@
-f TIM1_SR2 0x0000
-f buf_tx 0x003d
-f buf_rx 0x005c
-f state_2 0x01b0
-f state_3 0x01b1
-f state_1 0x01b2
-f PA_ODR 0x5000
-f PA_DDR 0x5002
-f PA_CR1 0x5003
-f PB_IDR 0x5006
-f PB_DDR 0x5007
-f PB_CR1 0x5008
-f PC_ODR 0x500a
-f PC_DDR 0x500c
-f PC_CR1 0x500d
-f PD_ODR 0x500f
-f PD_DDR 0x5011
-f PD_CR1 0x5012
-f FLASH_IAPSR 0x505f
-f FLASH_DUKR 0x5064
-f RST_SR 0x50b3
-f CLK_ICKR 0x50c0
-f CLK_SWR 0x50c4
-f CLK_CKDIVR 0x50c6
-f IWDG_KR 0x50e0
-f IWDG_PR 0x50e1
-f IWDG_RLR 0x50e2
-f UART1_SR 0x5230
-f UART1_DR 0x5231
-f UART1_BRR1 0x5232
-f UART1_BRR2 0x5233
-f UART1_CR2 0x5235
-f TIM1_CR1 0x5250
-f TIM1_IER 0x5254
-f TIM1_EGR 0x5257
-f TIM1_CCMR3 0x525a
-f TIM1_CCER2 0x525d
-f TIM1_PSCRH 0x5260
-f TIM1_PSCRL 0x5261
-f TIM2_CR1 0x5300
-f TIM2_CCMR1 0x5307
-f TIM2_CCER1 0x530a
-f TIM2_PSCR 0x530e
-f TIM2_ARRH 0x530f
-f TIM2_ARRL 0x5310
-f TIM2_CCR1H 0x5311
-f TIM2_CCR1L 0x5312
-f TIM4_CR1 0x5340
-f TIM4_IER 0x5343
-f TIM4_SR 0x5344
-f TIM4_PSCR 0x5347
-f TIM4_ARR 0x5348
-f ADC_CSR 0x5400
-f ADC_CR1 0x5401
-f ADC_CR2 0x5402
-f ADC_CR3 0x5403
-f ADC_DRH 0x5404
-f ADC_DRL 0x5405
-f ADC_TDRH 0x5406
-f adc_settle_maybe 0x80af
-f ADC_store_reading 0x80d6
-f three_inputs_check_ADC 0x8174
-f big 0x822d
-f ISR_UART1_tx 0x85bd
-f ISR_UART1_rx 0x85df
-f Debug_maybe 0x8694
-f load_eeprom_parameters 0x86b9
-f eeprom_settings_maybe 0x86c2
-f FUN_8717 0x8717
-f current_command_maybe 0x87ff
-f FUN_88f0 0x88f0
-f watchdog_refresh 0x8908
-f just_ret 0x890d
-f init_peripherals 0x890e
-f clock_init 0x8a4e
-f all_ports_init 0x8a5b
-f ADC_init 0x8a80
-f TIM1_init 0x8a9b
-f TIM2_init 0x8ab8
-f TIM4_init 0x8add
-f UART1_init 0x8aee
-f ISR_TIM4_OF 0x8b07
-f ISR_TIM1 0x8b59
-f FUN_8bdd 0x8bdd
-f read_speed_via_adc_maybe 0x8c70
-f FUN_8d8c 0x8d8c
-f FUN_8e06 0x8e06
-f low_level_error_overlapping_input_varnodes 0x8ee9
-f PORTC_related 0x94e6
-f toggle_ODR1 0x98c8
-f fsm_update_maybe 0x98dc
-f FUN_9927 0x9927
-f entry 0x9a9b
-f FUN_9ac5 0x9ac5
-f FUN_9adc 0x9adc
-f counter_254_in_ram_maybe 0x9af9
-f FUN_9b12 0x9b12
-f FUN_9b5e 0x9b5e
-f FUN_9b6c 0x9b6c
-f FUN_9b75 0x9b75
-f FUN_9b7e 0x9b7e
-f FUN_9b87 0x9b87
-f FUN_9ba8 0x9ba8
-f FUN_9bc8 0x9bc8
-f FUN_9bd8 0x9bd8
-f FUN_9bef 0x9bef
-f FUN_9bf7 0x9bf7
-f FUN_9c0d 0x9c0d
-f FUN_9c1c 0x9c1c
-f speed_selector_maybe 0x9ca7
-f write_ram_block 0x9cbf
-f FUN_9cd1 0x9cd1
-f FUN_9cfc 0x9cfc
-f FUN_9dd0 0x9dd0
-f FUN_9de3 0x9de3
-f speed_selector_switcher_maybe 0x9df8
-f read_ram_bock 0x9e07
-f FUN_9e19 0x9e19
-f zero_e2_e3_ram_load_e4_as_idx 0x9e24
-f ISR_empty 0x9e2b
+f TIM1_SR2 @ 0x0000
+f buf_tx @ 0x003d
+f buf_rx @ 0x005c
+f state_2 @ 0x01b0
+f state_3 @ 0x01b1
+f state_1 @ 0x01b2
+f PA_ODR @ 0x5000
+f PA_DDR @ 0x5002
+f PA_CR1 @ 0x5003
+f PB_IDR @ 0x5006
+f PB_DDR @ 0x5007
+f PB_CR1 @ 0x5008
+f PC_ODR @ 0x500a
+f PC_DDR @ 0x500c
+f PC_CR1 @ 0x500d
+f PD_ODR @ 0x500f
+f PD_DDR @ 0x5011
+f PD_CR1 @ 0x5012
+f FLASH_IAPSR @ 0x505f
+f FLASH_DUKR @ 0x5064
+f RST_SR @ 0x50b3
+f CLK_ICKR @ 0x50c0
+f CLK_SWR @ 0x50c4
+f CLK_CKDIVR @ 0x50c6
+f IWDG_KR @ 0x50e0
+f IWDG_PR @ 0x50e1
+f IWDG_RLR @ 0x50e2
+f UART1_SR @ 0x5230
+f UART1_DR @ 0x5231
+f UART1_BRR1 @ 0x5232
+f UART1_BRR2 @ 0x5233
+f UART1_CR2 @ 0x5235
+f TIM1_CR1 @ 0x5250
+f TIM1_IER @ 0x5254
+f TIM1_EGR @ 0x5257
+f TIM1_CCMR3 @ 0x525a
+f TIM1_CCER2 @ 0x525d
+f TIM1_PSCRH @ 0x5260
+f TIM1_PSCRL @ 0x5261
+f TIM2_CR1 @ 0x5300
+f TIM2_CCMR1 @ 0x5307
+f TIM2_CCER1 @ 0x530a
+f TIM2_PSCR @ 0x530e
+f TIM2_ARRH @ 0x530f
+f TIM2_ARRL @ 0x5310
+f TIM2_CCR1H @ 0x5311
+f TIM2_CCR1L @ 0x5312
+f TIM4_CR1 @ 0x5340
+f TIM4_IER @ 0x5343
+f TIM4_SR @ 0x5344
+f TIM4_PSCR @ 0x5347
+f TIM4_ARR @ 0x5348
+f ADC_CSR @ 0x5400
+f ADC_CR1 @ 0x5401
+f ADC_CR2 @ 0x5402
+f ADC_CR3 @ 0x5403
+f ADC_DRH @ 0x5404
+f ADC_DRL @ 0x5405
+f ADC_TDRH @ 0x5406
+f adc_settle_maybe @ 0x80af
+f ADC_store_reading @ 0x80d6
+f three_inputs_check_ADC @ 0x8174
+f big @ 0x822d
+f ISR_UART1_tx @ 0x85bd
+f ISR_UART1_rx @ 0x85df
+f Debug_maybe @ 0x8694
+f load_eeprom_parameters @ 0x86b9
+f eeprom_settings_maybe @ 0x86c2
+f FUN_8717 @ 0x8717
+f current_command_maybe @ 0x87ff
+f FUN_88f0 @ 0x88f0
+f watchdog_refresh @ 0x8908
+f just_ret @ 0x890d
+f init_peripherals @ 0x890e
+f clock_init @ 0x8a4e
+f all_ports_init @ 0x8a5b
+f ADC_init @ 0x8a80
+f TIM1_init @ 0x8a9b
+f TIM2_init @ 0x8ab8
+f TIM4_init @ 0x8add
+f UART1_init @ 0x8aee
+f ISR_TIM4_OF @ 0x8b07
+f ISR_TIM1 @ 0x8b59
+f FUN_8bdd @ 0x8bdd
+f read_speed_via_adc_maybe @ 0x8c70
+f FUN_8d8c @ 0x8d8c
+f FUN_8e06 @ 0x8e06
+f low_level_error_overlapping_input_varnodes @ 0x8ee9
+f PORTC_related @ 0x94e6
+f toggle_ODR1 @ 0x98c8
+f fsm_update_maybe @ 0x98dc
+f FUN_9927 @ 0x9927
+f entry @ 0x9a9b
+f FUN_9ac5 @ 0x9ac5
+f FUN_9adc @ 0x9adc
+f counter_254_in_ram_maybe @ 0x9af9
+f FUN_9b12 @ 0x9b12
+f FUN_9b5e @ 0x9b5e
+f FUN_9b6c @ 0x9b6c
+f FUN_9b75 @ 0x9b75
+f FUN_9b7e @ 0x9b7e
+f FUN_9b87 @ 0x9b87
+f FUN_9ba8 @ 0x9ba8
+f FUN_9bc8 @ 0x9bc8
+f FUN_9bd8 @ 0x9bd8
+f FUN_9bef @ 0x9bef
+f FUN_9bf7 @ 0x9bf7
+f FUN_9c0d @ 0x9c0d
+f FUN_9c1c @ 0x9c1c
+f speed_selector_maybe @ 0x9ca7
+f write_ram_block @ 0x9cbf
+f FUN_9cd1 @ 0x9cd1
+f FUN_9cfc @ 0x9cfc
+f FUN_9dd0 @ 0x9dd0
+f FUN_9de3 @ 0x9de3
+f speed_selector_switcher_maybe @ 0x9df8
+f read_ram_bock @ 0x9e07
+f FUN_9e19 @ 0x9e19
+f zero_e2_e3_ram_load_e4_as_idx @ 0x9e24
+f ISR_empty @ 0x9e2b

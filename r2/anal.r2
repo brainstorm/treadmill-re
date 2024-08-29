@@ -2,6 +2,11 @@ e asm.cpu=stm8
 #e anal.strings=1
 e anal.hasnext=true
 e emu.str=true
+aac
+afr
+af @ 0x00009b12
+af @ 0x000085bd
+afr @ 0x00008b07
 #e anal.cc=ms
 s 0x2bd
 o malloc://0x800 0x5000 rw # peripherals

@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import csv
 
 def replace_number_prefix(name):
@@ -20,4 +22,4 @@ with open("r2/functions.csv", "r") as infile, open("r2/import_flags.r2", "w") as
         address = row["Location"]
 
         #outfile.write(f"f {name} @ 0x{address}\n")
-        outfile.write(f"f {name} @ 0x{address}\n")
+        outfile.write(f"f {name} =0x{address}\n")

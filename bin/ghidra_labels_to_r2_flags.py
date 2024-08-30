@@ -21,5 +21,4 @@ with open("r2/functions.csv", "r") as infile, open("r2/import_flags.r2", "w") as
         name = replace_number_prefix(name)
         address = row["Location"]
 
-        #outfile.write(f"f {name} @ 0x{address}\n")
-        outfile.write(f"f {name} = 0x{address}\n")
+        outfile.write(f"f fn.{name} = 0x{address}\n")

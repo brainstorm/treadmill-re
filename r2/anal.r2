@@ -21,3 +21,4 @@ omni 4 ram
 # . /Users/pancake/.local/share/radare2/plugins/decai.r2.js
 #. ~/.local/share/radare2/r2pm/git/decai/r2plugin/decai.r2.js
 decai -e api=claude
+#decai -n @@@F > r2/claude_functions.r2

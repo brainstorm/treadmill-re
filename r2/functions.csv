@@ -87,7 +87,7 @@
 "FUN_8d8c","8d8c","Function","Global","Default","1","0"
 "FUN_8e06","8e06","Function","Global","Default","1","0"
 "low_level_error_overlapping_input_varnodes","8ee9","Function","Global","User Defined","1","0"
-"PORTC_related","94e6","Function","Global","User Defined","1","0"
+"update_portc_pwm","94e6","Function","Global","User Defined","1","0"
 "toggle_ODR1","98c8","Function","Global","User Defined","1","0"
 "fsm_update?","98dc","Function","Global","User Defined","1","0"
 "FUN_9927","9927","Function","Global","Default","1","0"

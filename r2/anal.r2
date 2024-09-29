@@ -2,7 +2,7 @@ e asm.cpu=stm8
 #e anal.strings=1
 e asm.pseudo=1
 e anal.hasnext=true
-#e anal.cc=reg
+e anal.cc=reg
 e emu.str=true
 aac
 afr
@@ -19,5 +19,6 @@ omni 3 eeprom
 omni 4 ram
 s 0x09ac5
 decai -e api=r2ai
+!r2svd stm8 control/STM8S003F3.svd
 # propose function names for each function
 #decai -n @@@F > r2/claude_functions.r2

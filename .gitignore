@@ -2,3 +2,8 @@
 naken_asm
 .txt
 .venv
+
+# KiCad
+*auto_saved_files*
+*.lck
+*.zip

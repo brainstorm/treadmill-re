@@ -19,6 +19,6 @@ omni 3 eeprom
 omni 4 ram
 s 0x09ac5
 decai -e api=r2ai
-!r2svd stm8 control/STM8S003F3.svd
+!r2svd ./control/STM8S003F3.svd
 # propose function names for each function
 #decai -n @@@F > r2/claude_functions.r2

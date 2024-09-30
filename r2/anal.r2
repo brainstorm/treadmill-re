@@ -19,3 +19,4 @@ decai -e api=r2ai
 .!r2svd ./control/STM8S003F3.svd
 # propose function names for each function
 #decai -n @@@F > r2/claude_functions.r2
+aflsa

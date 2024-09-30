@@ -4,7 +4,8 @@ e asm.cpu=stm8
 e anal.hasnext=true
 e anal.cc=reg
 e emu.str=true
-aac
+afr
+# aac
 o malloc://0x800 0x5000 rw # peripherals
 on file://control/eeprom.bin 0x4000 r
 on file://control/ram.bin 0 rwx

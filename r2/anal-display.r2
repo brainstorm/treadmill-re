@@ -14,7 +14,11 @@ omni 3 eeprom
 omni 4 ram
 afr
 aar
-decai -e api=r2ai
+#decai -e api=huggingface
+#decai -e api=r2ai
+#decai -e api=openai
+decai -e api=claude
 .!r2svd ./display/STM8S005K6.svd
+s 0x00008aac
 # propose function names for each function
 #decai -n @@@F > r2/claude_functions.r2

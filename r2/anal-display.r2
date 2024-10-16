@@ -36,3 +36,6 @@ decai -e api=claude
 
 # propose function names for each function
 #decai -n @@@F > r2/claude_functions.r2
+
+# Trufae says seek works on r2scripts?
+s 0x00009180

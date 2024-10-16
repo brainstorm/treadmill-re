@@ -20,7 +20,6 @@ omni 3 eeprom
 omni 4 ram
 
 # ANALYSIS
-# aac
 afr
 aar
 

@@ -8,7 +8,7 @@ e anal.cc=reg
 e emu.str=true
 
 # PROJECT MANAGEMENT
-e dir.projects ~/dev/personal/treadmill-re/.r2project/
+"e dir.projects=~/dev/personal/treadmill-re/.r2project/"
 
 # MEMORY LAYOUT
 o malloc://0x800 0x5000 rw # peripherals

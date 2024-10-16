@@ -26,10 +26,10 @@ aar
 
 # AI
 decai -e cache=true
-decai -e api=huggingface
+#decai -e api=huggingface
 #decai -e api=r2ai
 #decai -e api=openai
-#decai -e api=claude
+decai -e api=claude
 
 # PERIPHERALS (SVD)
 .!r2svd ./display/STM8S005K6.svd

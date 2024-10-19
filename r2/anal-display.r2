@@ -9,6 +9,7 @@ e emu.str=true
 
 # PROJECT MANAGEMENT
 "e dir.projects=~/dev/personal/treadmill-re/.r2project/"
+"e dir.cache=.cache"
 
 # MEMORY LAYOUT
 o malloc://0x800 0x5000 rw # peripherals
@@ -30,11 +31,8 @@ decai -e cache=true
 #decai -e api=openai
 decai -e api=claude
 
-# PERIPHERALS (SVD)
-.!r2svd ./display/STM8S005K6.svd
-
 # propose function names for each function
 #decai -n @@@F > r2/claude_functions.r2
 
-# Trufae says seek works on r2scripts?
-s 0x00009180
+# PERIPHERALS (SVD)
+.!r2svd ./display/STM8S005K6.svd

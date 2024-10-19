@@ -1,3 +1,5 @@
+# DISSASSEMBLY BASICS
+
 e asm.cpu=stm8
 #e anal.strings=1
 #e asm.pseudo=1
@@ -7,7 +9,7 @@ e emu.str=true
 
 # PROJECT MANAGEMENT
 "e dir.projects=~/dev/personal/treadmill-re/.r2project/"
-
+"e dir.cache=.cache"
 
 # MEMORY LAYOUT
 o malloc://0x800 0x5000 rw # peripherals
@@ -19,8 +21,8 @@ omni 3 eeprom
 omni 4 ram
 
 # ANALYSIS
-aac
 afr
+aac
 
 # AI
 decai -e cache=true
@@ -29,7 +31,10 @@ decai -e cache=true
 #decai -e api=openai
 decai -e api=claude
 
-# PERIPHERALS (SVD)
-.!r2svd ./control/STM8S003F3.svd
 # propose function names for each function
 #decai -n @@@F > r2/claude_functions.r2
+
+# PERIPHERALS (SVD)
+.!r2svd ./control/STM8S003F3.svd
+
+

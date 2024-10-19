@@ -70,13 +70,15 @@ Reading 1024 bytes at 0x0... OK
 Bytes received: 1024
 ```
 
-## Analyse with radare2
+## Analysis with radare2
 
 From the top level directory:
 
 ```sh
-./r2/anal.sh
+./r2/anal.sh [display|control]
 ```
+
+Depending on which PCB's firmware you want to explore.
 
 [boot_attacks]: https://github.com/janvdherrewegen/bootl-attacks
 [pmicro_web]: https://pmicro.com.cn/en/mcurf_/21.html

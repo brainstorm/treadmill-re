@@ -1,0 +1,45 @@
+## Simulating
+
+Requires [uCsim][uCsim] and [srecord][srecord]. First a conversion to Intel's ihex format is required:
+
+```
+$ brew install srecord
+$ /opt/homebrew/Cellar/srecord/1.64/bin/srec_cat control/flash.bin -binary -offset 0x08000 -output control/flash.hex -Intel -Address-length 2
+$ /opt/homebrew/Cellar/srecord/1.64/bin/srec_cat control/flash.bin -binary -offset 0x08000 -output control/flash.hex -Intel
+$ /opt/homebrew/Cellar/srecord/1.64/bin/srec_cat display/flash.bin -binary -offset 0x08000 -output display/flash.hex -Intel
+```
+
+And then the UART simulation can proceed like so, manually stepping:
+
+```
+$ ucsim_stm8 -t STM8S003 ~/dev/personal/treadmill-re/control/flash.hex
+uCsim 0.8.10, Copyright (C) 1997 Daniel Drotos.
+uCsim comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
+This is free software, and you are welcome to redistribute it
+under certain conditions; type `show c' for details.
+0> s1=56 s2=56
+Loading from /Users/rvalls/dev/personal/treadmill-re/control/flash.hex
+8192 words read from /Users/rvalls/dev/personal/treadmill-re/control/flash.hex
+
+0> step
+
+Stop at 0x009a9b: (109) stepped 2 ticks
+V-IHINZC  Flags= 0x28  40 (  A= 0x00   0 .
+0-101000  X= 0x0000   0 .    Y= 0x0000   0 .
+SP= 0x17ff [SP+1]= 00   0 .  Limit= 0x14ff
+0x09a9b  ? cd 89 0e       call   0x890e
+F 0x009a9b
+0> step
+
+Stop at 0x00890e: (109) stepped 4 ticks
+V-IHINZC  Flags= 0x28  40 (  A= 0x00   0 .
+0-101000  X= 0x0000   0 .    Y= 0x0000   0 .
+SP= 0x17fd [SP+1]= 9a 154 .  Limit= 0x14ff
+0x0890e  ? 52 04          sub    SP,#0x04
+F 0x00890e
+0>
+```
+
+[srecord]: https://srecord.sourceforge.net/download.html
+[uCsim]: https://github.com/danieldrotos/ucsim
+

@@ -7,3 +7,6 @@ naken_asm
 *auto_saved_files*
 *.lck
 *.zip
+
+#uCsim
+sim/ucsim

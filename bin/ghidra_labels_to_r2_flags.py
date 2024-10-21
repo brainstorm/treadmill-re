@@ -11,7 +11,7 @@ def replace_number_prefix(name):
         return num_map[name[0]] + name[1:]
     return name
 
-with open("r2/functions.csv", "r") as infile, open("r2/import_flags.r2", "w") as outfile:
+with open("r2/anal-control-ghidra-labels.csv", "r") as infile, open("r2/anal-control-ghidra-labels.r2", "w") as outfile:
     reader = csv.DictReader(infile)
     for row in reader:
         ## radare2 does not like question marks in flags nor numbers in flags prefixes:

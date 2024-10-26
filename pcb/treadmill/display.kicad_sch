@@ -6049,7 +6049,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4661a1da-5532-4d7c-ba00-06d957ceb271")
 		(property "Reference" "RB1"
 			(at 230.124 86.614 90)
@@ -6606,7 +6606,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7c6d46ff-20ba-47c3-8950-a7069642d76d")
 		(property "Reference" "RB5"
 			(at 230.124 102.616 90)
@@ -6805,7 +6805,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "838be206-95c0-458d-97a0-acd9fc367816")
 		(property "Reference" "RB2"
 			(at 230.124 90.424 90)
@@ -6942,7 +6942,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "871bd97e-8c30-4001-8e2e-5a00f793d844")
 		(property "Reference" "J5"
@@ -7334,7 +7334,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9c6845d0-d8f5-477d-af97-d9a0cd91b546")
 		(property "Reference" "RB4"
 			(at 230.124 98.298 90)
@@ -7533,7 +7533,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "aeb625d5-8d87-4d1b-b245-98a6cef04e78")
 		(property "Reference" "RB3"
 			(at 230.124 94.234 90)

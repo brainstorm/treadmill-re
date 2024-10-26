@@ -2,6 +2,10 @@
 naken_asm
 .txt
 .venv
+*.lock
+*.lock~
+
+treadmill-backups/*
 
 # radare2
 .r2project

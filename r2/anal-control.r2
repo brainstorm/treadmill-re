@@ -25,7 +25,7 @@ af-0x00009e2c
 CC Evaluates timings and settings based on various counters and conditions to determine whether specific timing thresholds have been reached and updates control flags accordingly. @ 0x9927
 afn fn.evaluateTimings @ 0x9927
 f-fn.FUN_9927
-e asm.cmt.pseudo=true
+# e asm.cmt.pseudo=true
 
 # display ram contents as 16bit values
 # Cd 2 0x200 @ 0

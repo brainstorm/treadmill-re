@@ -33,3 +33,5 @@ Cd 1 0x400 @ 0
 
 f global.lastTiming = 0x188
 f global.timingValue = 0x16e
+
+. ./r2/anal-control-explanations.r2

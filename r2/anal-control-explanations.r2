@@ -65,3 +65,6 @@ CC This function performs a countdown loop while copying values between memory l
 '@0x00009c1c'CC Performs memory block calculation by multiplying and accumulating values from input parameters with values stored in memory locations 0xE2-0xE6, likely used for RAM block operations.
 '@0x00009ca7'CC Subtracts values from a sequence of memory locations to calculate a difference or offset, likely used for speed-related calculations.
 '@0x000080af'CC This function implements a delay mechanism using a countdown loop while copying ADC values between memory locations, likely to allow analog-to-digital conversion readings to stabilize.
+'@0x00009df8'CC This function performs a bit rotation operation on a series of values based on a counter, likely used to switch or cycle through different speed settings.
+'@0x00009bf7'CC Increments a byte at a specific memory address and handles carry propagation, with error checking for overlapping input variables.
+'@0x00009c0d'CC Performs a multi-byte left shift operation by rotating multiple bytes to the left a specified number of times.

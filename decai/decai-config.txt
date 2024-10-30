@@ -1,0 +1,12 @@
+[0x00009c1c]> decai -e
+decai -e api=claude
+decai -e host=http://localhost
+decai -e port=8080
+decai -e prompt=Merge both decompilations and generate an unified and improved version of the function logic, result must cover ALL the code paths, do not ignore any logic, use better local variable names, replace 'goto' with if/else/for/while and optimize the output for readability, reducing unnecessary statements
+decai -e ctxfile=
+decai -e cmds=pdg,pdc
+decai -e cache=false
+decai -e lang=C
+decai -e hlang=English
+decai -e debug=false
+decai -e model=

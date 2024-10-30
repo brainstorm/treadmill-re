@@ -14,5 +14,5 @@ fi
 if [ "$1" = "display" ]; then
     $R2 -a stm8 -n -m 0x807f -i r2/anal-display.r2 display/flash.bin
 else
-    $R2 -a stm8 -n -m 0x8000 -i r2/anal-control-ghidra-labels.r2 -i r2/anal-control.r2 control/flash.bin
+    $R2 -a stm8 -b 16 -n -m 0x8000 -i r2/anal-control-ghidra-labels.r2 -i r2/anal-control.r2 control/flash.bin
 fi

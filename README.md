@@ -16,60 +16,6 @@ openocd -f interface/stlink-dap.cfg -f target/stm8s105.cfg -c "init" -c "reset h
 
 Fortunately, [stm8flash][stm8flash] does the job just fine out of the box.
 
-### Display board
-
-See actual file dumps under `display` folder in this repository. All interesting sections can be dumped with stm8flash successfully from its [`STM8S005K6T6C`][stm8s005k6t6c]:
-
-```shell
-% ./stm8flash -c stlinkv2 -p stm8s005k6 -s flash -r flash.bin
-Determine FLASH area
-STLink: v2, JTAG: v29, SWIM: v7, VID: 8304, PID: 4837
-Due to its file extension (or lack thereof), "flash.bin" is considered as RAW BINARY format!
-Reading 32768 bytes at 0x8000... OK
-Bytes received: 32768
-
-% ./stm8flash -c stlinkv2 -p stm8s005k6 -s eeprom -r eeprom.bin
-Determine EEPROM area
-STLink: v2, JTAG: v29, SWIM: v7, VID: 8304, PID: 4837
-Due to its file extension (or lack thereof), "eeprom.bin" is considered as RAW BINARY format!
-Reading 128 bytes at 0x4000... OK
-Bytes received: 128
-
-% ./stm8flash -c stlinkv2 -p stm8s005k6 -s ram -r ram.bin
-Determine RAM area
-STLink: v2, JTAG: v29, SWIM: v7, VID: 8304, PID: 4837
-Due to its file extension (or lack thereof), "ram.bin" is considered as RAW BINARY format!
-Reading 2048 bytes at 0x0... OK
-Bytes received: 2048
-```
-
-### Control/motor board
-
-Ditto for the control board, which has a smaller cousin, the [`STM8S003F3P6`][stm8s003f3p6] microcontroller:
-
-```shell
-% ./stm8flash -c stlinkv2 -p stm8s003f3 -s flash -r flash.bin
-Determine FLASH area
-STLink: v2, JTAG: v29, SWIM: v7, VID: 8304, PID: 4837
-Due to its file extension (or lack thereof), "flash.bin" is considered as RAW BINARY format!
-Reading 8192 bytes at 0x8000... OK
-Bytes received: 8192
-
-% ./stm8flash -c stlinkv2 -p stm8s003f3 -s eeprom -r eeprom.bin
-Determine EEPROM area
-STLink: v2, JTAG: v29, SWIM: v7, VID: 8304, PID: 4837
-Due to its file extension (or lack thereof), "eeprom.bin" is considered as RAW BINARY format!
-Reading 128 bytes at 0x4000... OK
-Bytes received: 128
-
-% ./stm8flash -c stlinkv2 -p stm8s003f3 -s ram -r ram.bin
-Determine RAM area
-STLink: v2, JTAG: v29, SWIM: v7, VID: 8304, PID: 4837
-Due to its file extension (or lack thereof), "ram.bin" is considered as RAW BINARY format!
-Reading 1024 bytes at 0x0... OK
-Bytes received: 1024
-```
-
 ## Analysis with radare2
 
 From the top level directory:
@@ -92,3 +38,4 @@ Depending on which PCB's firmware you want to explore.
 [stm8_getting_started]: https://github.com/hbendalibraham/stm8_started
 [stm8_svd]: https://github.com/gicking/STM8_headers/blob/master/SVD/STM8S003F3.svd
 [stm8_emulator]: https://github.com/mikechambers84/STM8-Emulator
+[opensource-toolchain-stm8]: https://github.com/cjacker/opensource-toolchain-stm8

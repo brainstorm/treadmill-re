@@ -21,3 +21,6 @@ sim/ucsim
 
 # GIMP pcb stackup (too big for version control)
 *.xcf
+
+# OpenOCD USB pcapng debug
+debug/

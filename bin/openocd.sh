@@ -64,7 +64,8 @@
 #                                return ERROR_FAIL;
 
 ## -c "reset halt" does not work on the changes I introduced, but at least it spawns a GDB session...
-openocd -d4 -f interface/stlink-dap.cfg -f target/stm8s003.cfg -c "init"
+openocd -f interface/stlink-dap.cfg -f target/stm8s003.cfg -c "init"
+# -c "halt"
 
 # Info : 80 10 stlink_usb.c:1475 stlink_usb_version(): STLINK V2J29S7 (API v2) VID:PID 0483:3748
 # Debug: 81 10 stlink_usb.c:1700 stlink_usb_exit_mode(): MODE: 0x01

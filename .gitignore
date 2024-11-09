@@ -6,6 +6,7 @@ naken_asm
 *.lock~
 
 treadmill-backups/*
+control/protocol/serial
 
 # radare2
 .r2project

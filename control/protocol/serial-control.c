@@ -56,7 +56,7 @@ int init_serial(const char *portname) {
 // Function to send command sequence
 void send_command(int fd, uint8_t energy, uint8_t status_flags) {
     uint8_t buffer[6];
-    
+
     // Initialize control and enable UART
     buffer[0] = UART_CONTROL;
     buffer[1] = UART_ENABLE;
@@ -83,7 +83,7 @@ int main(int argc, char *argv[]) {
     uint8_t status_flags = (uint8_t)strtoul(argv[2], NULL, 0);
 
     // Initialize the serial port
-    const char *portname = "/dev/ttyS0"; // Replace with your serial port
+    const char *portname = "/dev/cu.usbserial-1110"; // Replace with your serial port
     int fd = init_serial(portname);
     if (fd < 0) {
         return EXIT_FAILURE;

@@ -25,5 +25,5 @@ Reading 1024 bytes at 0x0... OK
 Bytes received: 1024
 ```
 
-![control_board](./../img/threadmill_control_board.jpg)
-![control_board_detail](./../img/threadmill_control_board_detail.jpg)
+![control_board](./../img/treadmill_control_board.jpg)
+![control_board_detail](./../img/treadmill_control_board_detail.jpg)

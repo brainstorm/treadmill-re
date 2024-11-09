@@ -1,0 +1,120 @@
+fn.ADC_store_reading:
+    fn.zero_e2_e3_ram_load_e4_as_idx
+    fn.read_ram_bock
+    fn.increment_32bit_value_by_fixed_amount
+    fn.writeToOxe2
+    fn.speed_selector
+    fn.speed_selector_switcher
+
+fn.three_inputs_check_ADC:
+    fn.adc_settle
+    fn.ADC_store_reading
+
+fn.big:
+    fn.set_register_value_based_on_condition
+    fn.writeToOxe2
+    fn.multiByteLeftShift
+    fn.read_ram_bock
+    fn.increment_32bit_value_by_fixed_amount
+    fn.increment_bytes
+    fn.compareEnergyValues
+
+fn.eeprom_settings:
+    fn.load_eeprom_parameters
+
+fn.process_eeprom_settings:
+    fn.eeprom_settings
+
+fn.current_command:
+    fn.Debug
+
+fn.init_peripherals:
+    fn.clock_init
+    fn.all_ports_init
+    fn.ADC_init
+    fn.TIM1_init
+    fn.TIM2_init
+    fn.TIM4_init
+    fn.UART1_init
+    fn.zero_e2_e3_ram_load_e4_as_idx
+    fn.compareEnergyValues
+    fn.three_inputs_check_ADC
+    fn.process_eeprom_settings
+    fn.set_register_value_based_on_condition
+
+fn.process_input_and_update_state:
+    fn.calculateOffset
+    fn.calculate_offset_7
+
+fn.read_speed_via_adc:
+    fn.writeToOxe2
+    fn.compareEnergyValues
+    fn.ADC_store_reading
+    fn.zero_e2_e3_ram_load_e4_as_idx
+    fn.read_ram_bock
+    fn.calculate_division
+
+fn.calculate_energy_values:
+    fn.zero_e2_e3_ram_load_e4_as_idx
+    fn.read_ram_bock
+    fn.read_ram_block
+    fn.writeToOxe2
+    fn.calculate_division
+    fn.compareEnergyValues
+
+fn.calculate_and_update_values:
+    fn.calculate_energy_values
+    fn.zero_e2_e3_ram_load_e4_as_idx
+    fn.read_ram_bock
+    fn.read_ram_block
+    fn.writeToOxe2
+    fn.calculate_division
+    fn.calculate_adc_offset
+
+fn.low_level_error_overlapping_input_varnodes:
+    fn.read_speed_via_adc
+    fn.calculate_and_update_values
+    fn.calculate_offset_7
+    fn.counter_254_in_ram
+    fn.zero_e2_e3_ram_load_e4_as_idx
+    fn.read_ram_bock
+    fn.writeToOxe2
+    fn.calculate_division
+    fn.increment_byte_with_carry
+    fn.compareEnergyValues
+    fn.initialize_data_structure
+    fn.process_input_and_update_state
+    fn.read_ram_block
+    fn.increment_bytes
+
+fn.update_portc_pwm:
+    fn.calculate_offset_7
+
+fn.toggle_ODR1:
+    fn.low_level_error_overlapping_input_varnodes
+    fn.update_portc_pwm
+
+fn.entry:
+    fn.init_peripherals
+    fn.watchdog_refresh
+    fn.fsm_update
+    fn.big
+    fn.evaluateTimings
+    fn.toggle_ODR1
+    fn.current_command
+    fn.just_ret
+    fn.three_inputs_check_ADC
+
+fcn.00009b1b:
+    fn.writeToOxe2
+
+fn.calculate_division:
+    fn.calculate_quotient_and_remainder
+
+fn.calculateQuotientAndRemainder:
+    fn.increment_bytes_2
+    fn.complementAndIncrement
+
+fn.read_ram_block:
+    fn.calculate_ram_block
+

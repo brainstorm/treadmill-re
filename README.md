@@ -1,10 +1,10 @@
 # Threadmill RE
 
-This threadmill I found on the trash has two boards, let's call them: display and control. Both have STM8S ICs performing different functions. 
+This treadmill I found on the trash has two boards, let's call them: display and control. Both have STM8S ICs performing different functions. 
 
 The display board, other than displaying numbers on the display (via discrete SMD LEDs), has a [proprietary 2.4GHz radio module][pmicro_web] which supposedly communicated with **a remote control that was not present at the dumping site (street) :/** ... thus, we have a reason to reverse, fix and having this working again for desk workouts :)
 
-![threadmill](./img/threadmill.jpeg)
+![treadmill](./img/treadmill.jpeg)
 
 ## Dumping firmware
 
@@ -25,6 +25,20 @@ From the top level directory:
 ```
 
 Depending on which PCB's firmware you want to explore.
+
+## r2con 2024 presentation slides
+
+If you want to browse the slides presented at the radare2 conference 2024, here's the command:
+
+```
+./bin/slides.sh
+```
+
+And if you want to generate a PDF out of them:
+
+```
+./bin/slides.sh pdf
+```
 
 [boot_attacks]: https://github.com/janvdherrewegen/bootl-attacks
 [pmicro_web]: https://pmicro.com.cn/en/mcurf_/21.html

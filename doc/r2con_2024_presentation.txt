@@ -1,0 +1,35 @@
+Motivation:
+
+
+https://github.com/cjacker/opensource-toolchain-stm8/issues/1
+
+Disassembly:
+
+	needs https://github.com/esaulenka/ghidra_STM8
+	https://github.com/esaulenka/ghidra_STM8/issues/11
+
+	varnodes explanation: https://github.com/NationalSecurityAgency/ghidra/issues/5523#issuecomment-1676453258
+
+r2dec: Doesn't support STM8
+
+SVDs:
+
+r2svd
+bitlevel view
+vendorExtensions vs mem/buffer peripherals, etc... forget having see omni-s again:
+
+LLMs:
+
+Multiple patches from pancake after our discussions and mutual rants, a collection of fixes:
+
+
+
+<!--
+![ohnomeme](./img/slides/lol_oh_no_meme.png)
+
+Note:
+Think about the scale of giving proper disassembly and decompiler support for a jelly bean microcontroller:
+The impact of having a properly setup system to reverse engineer ubiquitious microcontrollers such as the STM8 should be a right (to repair).
+--->
+
+

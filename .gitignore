@@ -5,8 +5,10 @@ naken_asm
 *.lock
 *.lock~
 
+# Random garbage
 treadmill-backups/*
 control/protocol/serial
+doc/slides.pdf
 
 # radare2
 .r2project

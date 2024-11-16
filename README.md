@@ -40,6 +40,10 @@ And if you want to generate a PDF out of them:
 ./bin/slides.sh pdf
 ```
 
+### Video of the talk
+
+[![Running over STM8](http://img.youtube.com/vi/OUg8HzFTK18/0.jpg)](https://www.youtube.com/watch?v=OUg8HzFTK18)
+
 [boot_attacks]: https://github.com/janvdherrewegen/bootl-attacks
 [pmicro_web]: https://pmicro.com.cn/en/mcurf_/21.html
 [stm8_glitch]: https://hackaday.com/2020/07/04/the-cheap-way-to-glitch-an-stm8-microcontroller/

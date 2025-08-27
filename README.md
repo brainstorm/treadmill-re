@@ -1,4 +1,4 @@
-# Threadmill RE
+# Treadmill RE
 
 This treadmill I found on the trash has two boards, let's call them: display and control. Both have STM8S ICs performing different functions. 
 
